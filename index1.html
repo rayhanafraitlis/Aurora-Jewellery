@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Jewelry Shop</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #343a40;
+            padding: 15px;
+            text-align: center;
+            color: #ffffff;
+        }
+
+        nav {
+            background-color: #212529;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .product-card {
+            border: 1px solid #ddd;
+            margin: 10px;
+            padding: 15px;
+            border-radius: 5px;
+            text-align: center;
+            background-color: #ffffff;
+        }
+
+        .product-card img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>My Jewelry Shop</h1>
+    </header>
+
+    <nav>
+        <a href="#ring">Rings</a>
+        <a href="#necklace">Necklaces</a>
+    </nav>
+
+    <section id="ring">
+        <h2>Rings</h2>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="ring1.jpg" alt="Ring 1">
+                    <h3>Beautiful Gold Ring</h3>
+                    <p>Price: $500</p>
+                    <button class="btn btn-primary">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="ring2.jpg" alt="Ring 2">
+                    <h3>Elegant Silver Ring</h3>
+                    <p>Price: $350</p>
+                    <button class="btn btn-primary">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="ring3.jpg" alt="Ring 3">
+                    <h3>Diamond Engagement Ring</h3>
+                    <p>Price: $1000</p>
+                    <button class="btn btn-primary">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="necklace">
+        <h2>Necklaces</h2>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="necklace1.jpg" alt="Necklace 1">
+                    <h3>Gold Chain Necklace</h3>
+                    <p>Price: $800</p>
+                    <button class="btn btn-primary">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="necklace2.jpg" alt="Necklace 2">
+                    <h3>Pearl Pendant Necklace</h3>
+                    <p>Price: $600</p>
+                    <button class="btn btn-primary">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="necklace3.jpg" alt="Necklace 3">
+                    <h3>Silver Locket Necklace</h3>
+                    <p>Price: $450</p>
+                    <button class="btn btn-primary">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
